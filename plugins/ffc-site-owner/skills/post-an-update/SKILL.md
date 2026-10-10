@@ -42,8 +42,12 @@ Look at the repository first (read `AGENTS.md`):
 **Board minutes are public.** A static website can't hide pages behind a members-only
 login; anyone can read them. Before posting, confirm the board has **approved this
 version for public release**. If the full minutes shouldn't be public, offer to post
-an approved summary instead. Remove personal phone numbers, home addresses, and
-private personnel or financial details about individuals.
+an approved summary instead. Remove personal phone numbers, home addresses, health
+details, bank account details, and private personnel matters about individuals.
+
+Show them the public version **in chat** and get their OK on the wording before you
+create a branch or commit anything. The repository is public, so even an unmerged
+draft of the original minutes would be readable by anyone (see edit-my-site).
 
 **Newsletters** often arrive as pasted email. Strip email-only bits (unsubscribe
 links, "view in browser", tracking links, personal greetings like "Hi Jane") and keep

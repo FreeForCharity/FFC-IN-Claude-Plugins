@@ -17,7 +17,27 @@ preview address `https://freeforcharity.github.io/FFC-EX-<domain>/`. If you have
 GitHub connector and access to their repository, use both: the live pages show what
 visitors see, and the repo shows why.
 
-## 2. Check
+## 2. Find out what is actually serving the site
+
+Before judging content, look at the home page's source to see which site visitors are
+getting — it decides who can fix what:
+
+- **FFC's current platform** (GitHub Pages): asset paths start with `/_next/`. The
+  content lives in their `FFC-EX-<domain>` repository, so the owner can fix content
+  with you through **edit-my-site**.
+- **An older WordPress site**: you'll see `wp-content` or a WordPress `generator`
+  tag. Many charities' domains still point at an older site while FFC builds or
+  finishes the new one. Edits made in the repository **won't show up on the domain**
+  until FFC switches it over. Check the preview address
+  `https://freeforcharity.github.io/FFC-EX-<domain>/` — if the new site is there,
+  check it too and say which problems it already fixes. For problems on the live
+  WordPress site, don't offer "want me to fix it?"; route them to FFC (or, if the
+  owner has their own WordPress login, tell them where to change it themselves).
+- **Something else, or an error page:** report what you saw and route to FFC.
+
+Say plainly in the report which site the domain is showing.
+
+## 3. Check
 
 Fetch the home page and each page linked from the main navigation and footer. Look
 at:
@@ -52,7 +72,7 @@ at:
 - The latest run of the checks on `main` passed
 - Any open pull requests they may have forgotten to approve
 
-## 3. Be honest about limits
+## 4. Be honest about limits
 
 From a chat you can't fully test how the site behaves in a browser — real phone
 layout, browser console errors, or a full accessibility score. Say so, and give them
@@ -60,12 +80,13 @@ a 1-minute manual check: open the site on their phone, scroll every page, tap th
 menu, the Donate button, and the phone number. Don't report anything as "passed"
 that you didn't actually check.
 
-## 4. Report
+## 5. Report
 
 Use this shape, in plain words:
 
 ```
 Your site: <address> — checked <date>
+Showing: <FFC's new site | an older WordPress site — new site preview at ...>
 
 ✅ Working well
 - ...
@@ -83,10 +104,12 @@ Your site: <address> — checked <date>
 Keep it short: lead with what matters most to visitors (can people donate and
 contact you?). If everything's fine, say so plainly — a clean report is good news.
 
-## 5. Next steps
+## 6. Next steps
 
-- Things the owner can fix (content, contact info, old events, alt text) → offer to
-  do them now with the **edit-my-site** skill, one at a time.
+- Things the owner can fix (content, contact info, old events, alt text) on the FFC
+  platform → offer to do them now with the **edit-my-site** skill, one at a time.
+  If the domain still shows the older site, offer to make the fix in the new site's
+  repository instead, so it's right when FFC switches over.
 - Domain not working, security certificate warnings, email, footer data that comes
   from their FFC application, or failed checks you can't resolve → draft a message
   with the **ask-ffc-for-help** skill.

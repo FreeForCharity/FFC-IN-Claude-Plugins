@@ -35,16 +35,41 @@ Current contact details are on https://ffcadmin.org/site-owner/. Expect the
 invitation within a day or so.
 
 ### 3. Accept the invitation
-This is where most people get stuck. The invitation:
-- arrives as an email from GitHub (check spam/promotions) **and** in GitHub
-  notifications (the bell icon at github.com, signed in);
-- can be accepted directly at
-  `https://github.com/FreeForCharity/<repository-name>/invitations` while signed in;
-- **expires after 7 days** — if it has, ask FFC to resend.
+This is where most people get stuck. Work through these in order — the first two
+solve most cases:
 
-If they accept but still can't see the repository, they're almost always signed in
-to a different GitHub account than the one FFC invited. Every-click walkthrough:
-https://ffcadmin.org/site-owner/accept-invitation/
+1. **Go straight to the invitation page** (no email needed). Signed in to GitHub in
+   Chrome or Edge, open
+   `https://github.com/FreeForCharity/FFC-EX-<their-domain>/invitations` — for
+   example `https://github.com/FreeForCharity/FFC-EX-yourcharity.org/invitations`.
+   Fill in their domain if you know it. Give this link prominently; it's the fastest
+   fix. The invitation also appears in GitHub notifications (the bell icon) and as
+   an email from GitHub (check spam/promotions).
+2. **Check the username FFC invited actually exists.** Open (or, if you can fetch web
+   pages, fetch) `https://github.com/<username>`. A "page not found" means the
+   username is misspelled or the account is different — the invitation went nowhere,
+   so FFC must re-invite the correct username. Tell them what you found.
+3. **Two-factor authentication must be on.** The FreeForCharity organization requires
+   it, so GitHub won't let them accept until MFA is set up (guide:
+   `multi-factor-authentication`).
+4. **Invitations expire after 7 days** — if it has, ask FFC to resend.
+5. **Signed in to the wrong account.** If they accepted but still can't see the
+   repository, they're almost always signed in to a different GitHub account than
+   the one FFC invited.
+
+Every-click walkthrough: https://ffcadmin.org/site-owner/accept-invitation/. If it
+still isn't there, draft a message to FFC (**ask-ffc-for-help**) that includes the
+exact username and what they found.
+
+**Finding the cause isn't the whole answer.** They asked how to get set up, so in the
+same reply:
+- write out the full message to FFC (not "I'll draft one"), with a blank for the
+  correct username if it's still unknown — never repeat a username you've found
+  doesn't exist as if it were right;
+- give the direct invitations link they'll use once the new invitation is sent;
+- list what they can do **while waiting** on FFC: turn on MFA, install Claude
+  Desktop (step 4), and connect it to GitHub (step 5). None of that depends on the
+  invitation, and it means they're ready to edit the moment access arrives.
 
 ### 4. Install Claude
 Claude Desktop on the computer and Claude on the phone: https://claude.ai/download.
