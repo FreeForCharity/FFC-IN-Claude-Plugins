@@ -53,6 +53,19 @@ Example:
 **Never include passwords, recovery codes, or verification codes** in the message.
 FFC will never ask for them.
 
+## If others are worried too
+
+When donors, volunteers, or the board are asking questions (a "Not secure" warning,
+an outage, a strange change), offer a short holding reply the owner can send. Keep
+it to what's actually known: until FFC has looked, nobody knows the cause, so don't
+have them say "we weren't hacked", "your information is safe", or "it's already
+being fixed". Say instead that they've seen it, have no sign of a break-in (if
+true), have asked their web team to look, and will follow up — and, where it fits,
+suggest waiting to donate online until it's resolved. A reassurance that later
+turns out wrong costs more trust than an honest "we're checking". Reassure the owner
+the same way: "this is usually a certificate problem, not a break-in" is honest;
+"you haven't been hacked" isn't yet.
+
 ## 3. Where to send it
 
 Current FFC contact details are on https://ffcadmin.org/site-owner/ (under "Good

@@ -85,7 +85,9 @@ to apply. Explain what happens after they submit so the waiting isn't a mystery.
 
 Read `references/site-owner-setup.md`. This is for after FFC has created the
 charity's website repository. The goal: they can describe a change to Claude in
-plain English and approve it, with no code. Once their assistant can see their
+plain English and approve it, with no code. If they're stuck on a missing GitHub
+invitation, go straight to step 3 of that file: the direct invitations link and a
+check that the username exists solve most cases. Once their assistant can see their
 repository, hand off to the **edit-my-site** skill for a first small edit.
 
 ## Keep a running checklist
