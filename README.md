@@ -19,3 +19,7 @@ The Claude plugin marketplace for [Free For Charity](https://freeforcharity.org)
 claude --plugin-dir ./plugins/ffc-site-owner   # try it for one session
 claude plugin validate . --strict              # validate the marketplace and plugins
 ```
+
+## License
+
+[Apache License 2.0](LICENSE). See [NOTICE](NOTICE).

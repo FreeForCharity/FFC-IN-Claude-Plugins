@@ -6,5 +6,6 @@
   "author": { "name": "Free For Charity", "url": "https://freeforcharity.org" },
   "homepage": "https://ffcadmin.org/site-owner/",
   "repository": "https://github.com/FreeForCharity/FFC-IN-Claude-Plugins",
+  "license": "Apache-2.0",
   "keywords": ["nonprofit", "charity", "website", "free-for-charity", "onboarding"]
 }
