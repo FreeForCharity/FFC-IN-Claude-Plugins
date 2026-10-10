@@ -1,0 +1,13 @@
+{
+  "name": "free-for-charity",
+  "owner": { "name": "Free For Charity", "url": "https://freeforcharity.org" },
+  "description": "Claude plugins from Free For Charity, which provides free websites and domain management for US nonprofits.",
+  "plugins": [
+    {
+      "name": "ffc-site-owner",
+      "source": "./plugins/ffc-site-owner",
+      "description": "Application prerequisites, environment setup, and no-code website editing for FFC charity site owners.",
+      "category": "productivity"
+    }
+  ]
+}

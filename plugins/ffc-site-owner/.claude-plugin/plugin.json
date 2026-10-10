@@ -1,0 +1,10 @@
+{
+  "name": "ffc-site-owner",
+  "displayName": "Free For Charity – Site Owner Toolkit",
+  "version": "0.1.0",
+  "description": "For nonprofits working with Free For Charity: get through the application prerequisites, set up your editing environment, and update your charity website in plain English — no coding.",
+  "author": { "name": "Free For Charity", "url": "https://freeforcharity.org" },
+  "homepage": "https://ffcadmin.org/site-owner/",
+  "repository": "https://github.com/FreeForCharity/FFC-IN-Claude-Plugins",
+  "keywords": ["nonprofit", "charity", "website", "free-for-charity", "onboarding"]
+}
